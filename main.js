@@ -8,7 +8,7 @@ function start(){
 
 }
 
-RecognitionAI.onresult()=function(event){
+RecognitionAI.onresult=function(event){
 
     console.log(event);
     var transcriptValue= event.results[0][0].transcript;

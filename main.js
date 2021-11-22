@@ -67,6 +67,6 @@ function save(){
 
     link = document.getElementById("link");
     image = document.getElementById("ImgSelfie").src;
-    link.href= image;
+    link.href=image;
     link.click();    
 }
